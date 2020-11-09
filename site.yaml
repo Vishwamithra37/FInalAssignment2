@@ -128,7 +128,7 @@
   
 - hosts: haproxy
   become: true
-  remote_user: A1
+ 
 
   vars:
     haproxy_maxconns: 4096
